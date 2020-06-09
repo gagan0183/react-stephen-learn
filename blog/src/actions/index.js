@@ -16,6 +16,6 @@ export const fetchUser = (id) =>  {
         dispatch({
             type: 'FETCH_USER',
             payload: response.data
-        })
+        });
     }
 };
