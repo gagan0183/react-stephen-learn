@@ -3,7 +3,7 @@ import Postlist from "./Postlist";
 
 const App = () => {
     return <div className="ui container">
-        <Postlist />
+        <Postlist></Postlist>
     </div>
 };
 
